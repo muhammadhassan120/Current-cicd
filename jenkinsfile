@@ -7,7 +7,7 @@ node {
         echo "Cloning the  repo"
         git{
         branch: 'main',
-        url : 'https://github.com/muhammadhassan120/CI-CD-JENKINS',
+        url : 'https://github.com/muhammadhassan120/Current-cicd',
         }
     }
     stage('Deplot To Ec2') {
